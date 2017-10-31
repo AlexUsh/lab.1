@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
             f=9*(z+32)/9;
             if (k<0)
             {
-                printf("menshe absolutnogo 0");
+                printf("less than absolute zero");
             }
             else
             {
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
           k=5*(z-32)/9+273.15;
           if (k<0)
             {
-                printf("menshe absolutnogo 0");
+                printf("less than absolute zero");
             }
             else
             {
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
           f=9*(z-273.15)/5+32;
           if (z<0)
             {
-                printf("menshe absolutnogo 0");
+                printf("less than absolute zero");
             }
             else
             {
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
         f=9*(z+32)/9;
         if (k<0)
         {
-            printf ("menshe absolutnogo 0 \n\n");
+            printf ("less than absolute zero \n\n");
         }
         else
         {
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
         k=5*(z-32)/9+273.15;
         if (k<0)
         {
-            printf("menshe absolutnogo 0 \n\n");
+            printf("less than absolute zero \n\n");
         }
         else
         {
@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
         f=9*(z-273.15)/5+32;
          if (z<0)
         {
-            printf("menshe absolutnogo 0 \n\n");
+            printf("less than absolute zero \n\n");
         }
         else
         {
