@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     double z = atof(argv[1]);
     double k,f,c;
-
+/*Introduce the formulas to calculate the degrees for Celsius, Kelvin and Fahrenheit. Check for absolute zero.*/
     if (argc > 2)
     {
         if (strcmp(argv[2],"C")==0)
@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
             }
         }
     }
+    /*Check for absolute zero and the output*/
     else
     {
 
